@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9f</title>
+    <style>
+        *{
+            margin: 0;
+            font-family: Arial;
+        }
+        .profile__card {
+            width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+            margin: 15px 0px 0px 15px;
+        }
+        .profile__img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+
+        .profile_name {
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+
+        .profile__mutual__friends {
+            margin-left: 8px;
+            margin-top: 5px;
+            font-size: 14px;
+            color: gray;
+        }
+
+        .add__friend__button {
+            margin-top: 10px;
+            margin-left: 8px;
+            background: rgb(24, 119, 242);
+            border: 0;
+            color: white;
+            font-size: 15px;
+            padding: 8px 16px 8px 16px;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile__card">
+        <img class="profile__img" src="./thumbnails/logo.png" alt="">
+        <p class="profile_name">Awayfromus</p>
+        <p class="profile__mutual__friends">2 mutual friends</p>
+
+        <button class="add__friend__button">Add Friend</button>
+    </div>
+</body>
+</html>
