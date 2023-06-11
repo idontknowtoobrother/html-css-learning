@@ -3,7 +3,10 @@
     <head>
         <title>lession 8</title>
         <style>
-          
+            * {
+                font-family: Arial;
+            }
+
             input {
                 display: block;
                 margin-top: 5px;
@@ -21,6 +24,22 @@
             button {
                 margin-bottom: 30px;
             }
+
+            .firstname, .lastname, .email {
+                padding: 12px 16px 12px 16px;
+                font-size: 16px;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                margin-bottom: 12px;
+                width: 148px;
+            }
+
+            .email {
+                display: block;
+                width: 300px;
+            }
+
         </style>
     </head>
     <body>
@@ -30,5 +49,11 @@
         <p class="description">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
         <button>Yes</button>
         <button>No</button>
+
+        <div class="signup__form">
+            <input class="firstname" type="text" placeholder="First name">
+            <input class="lastname" type="text" placeholder="Last name">
+            <input class="email" type="text" placeholder="Email">
+        </div>
     </body>
 </html>
