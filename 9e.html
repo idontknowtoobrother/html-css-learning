@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9e</title>
+    <style>
+        *{
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .tweet__form {
+            width: 450px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+            vertical-align: top;
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        .tweet__profile {
+            width: 50px;
+            height: 50px;
+            vertical-align: middle;
+            object-fit: cover;
+            margin-right: 5px;
+            border-radius: 50%;
+        }
+
+        .tweet__input {
+            border: none;
+            width: 300px;
+            font-size: 18px;
+            vertical-align: middle;
+            outline: 0;
+        }
+
+        .tweet__button {
+            background-color: rgb(29, 155, 240);
+            border: 0;
+            color: white;
+            border: 8px 16px 8px 16px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 8px 14px 8px 14px;
+            vertical-align: middle;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="tweet__form">
+        <img class="tweet__profile" src="./thumbnails/logo.png" alt="">
+        <input class="tweet__input" type="text" placeholder="What's happening?">
+        <button class="tweet__button">Tweet</button>
+    </div>
+</body>
+</html>
