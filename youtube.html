@@ -3,6 +3,10 @@
     <head>
         <title>YouTube.con Clone</title>
         <style>
+            * {
+                margin: 0;
+            }
+
             .thumbnail__first {
                 width: 200px;
                 border-radius: 10px;
@@ -38,6 +42,35 @@
                 outline: 0;
             }
 
+
+            p {
+                font-family: Arial;
+                color: rgb(80, 80, 80);
+            }
+
+            .email__title {
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+
+            .email__input {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+
+            .description {
+                font-size: 15px;
+                margin-bottom: 20px;
+            }
+
+            .agree__join__button {
+                font-size: 20px;
+                color: white;
+                background: rgb(2, 68, 174);
+                border: 0;
+                border-radius: 20px;
+                padding: 10px 80px 10px 80px;
+            }
         </style>
     </head>
     <body>
@@ -46,5 +79,10 @@
         <img class="thumbnail__third" src="./thumbnails/poster-yt.png">
         <input class="search__bar" placeholder="Search" type="text">
         <input class="search__google" placeholder="Search Google or type a URL" type="text">
+
+        <p class="email__title">Email</p>
+        <input class="email__input" type="text">
+        <p class="description">By clickin Agree & Join, you agree to the Privacy Policy.</p>
+        <button class="agree__join__button"> Agree & Join</button>
     </body>
 </html>
